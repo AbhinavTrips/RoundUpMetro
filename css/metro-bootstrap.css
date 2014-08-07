@@ -4903,10 +4903,10 @@ a {
   position: absolute;
   bottom: 0;
   /*abhinav : original right : 10px*/
-  right: 40px;
+  right:40px;
   width: 29px;
   height: 29px;
-  text-align: center;
+  text-align: right;
   color: #ffffff;
   padding: 5px;
   margin: 0;
@@ -5032,6 +5032,7 @@ a {
 .metro .tile .tile-content.email .email-data .email-data-text {
   color: inherit;
   display: block;
+  
 }
 .metro .tile .tile-content.email .email-data .email-data-title {
   font-size: 14pt;
@@ -5040,10 +5041,10 @@ a {
   font-size: 11pt;
 }
 .metro .tile .tile-content.email .email-data .email-data-text {
-  font-size: 10pt;
+  font-size: 9pt;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  height: 60px;
+
 }
 .metro [class*=tile-transform-] {
   -webkit-transition: all 0.22s;
