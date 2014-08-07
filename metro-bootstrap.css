@@ -4351,6 +4351,7 @@ a {
   min-width: 100%;
   height: 100%;
   /*abhinav*/
+  background-image:url('images/wallpapers/vertbars.jpg');
   background-color: green !important;
 }
 .metro .tile-area-dark .tile {
@@ -4903,13 +4904,13 @@ a {
   position: absolute;
   bottom: 0;
   /*abhinav : original right : 10px*/
-  right: 10px;
+  right:40px;
   width: 29px;
   height: 29px;
   text-align: right;
   color: #ffffff;
   padding: 5px;
-  margin-right: 0px;
+  margin: 0;
   vertical-align: middle !important;
   display: block;
   font-size: 10pt;
@@ -5032,6 +5033,7 @@ a {
 .metro .tile .tile-content.email .email-data .email-data-text {
   color: inherit;
   display: block;
+  
 }
 .metro .tile .tile-content.email .email-data .email-data-title {
   font-size: 14pt;
@@ -5040,10 +5042,10 @@ a {
   font-size: 11pt;
 }
 .metro .tile .tile-content.email .email-data .email-data-text {
-  font-size: 10pt;
+  font-size: 9pt;
   overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis;
+  height: 60px;
+
 }
 .metro [class*=tile-transform-] {
   -webkit-transition: all 0.22s;
@@ -5224,6 +5226,7 @@ a {
   display: none;
   padding: 0;
 }
+
 .metro .carousel .slide div.subslide {
   z-index: 2;
   position: absolute;
@@ -8587,6 +8590,14 @@ a {
 }
 .metro .fg-white {
   color: #ffffff !important;
+}
+
+.metro .fs-9 {
+  font-size:9pt !important;
+}
+
+.metro .pad-5 {
+  padding:5px !important;
 }
 .metro .fg-lime {
   color: #a4c400 !important;

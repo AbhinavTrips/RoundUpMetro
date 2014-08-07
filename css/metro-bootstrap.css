@@ -4351,6 +4351,7 @@ a {
   min-width: 100%;
   height: 100%;
   /*abhinav*/
+  background-image:url('../images/wallpapers/planets.jpg');
   background-color: green !important;
 }
 .metro .tile-area-dark .tile {
@@ -5225,6 +5226,7 @@ a {
   display: none;
   padding: 0;
 }
+
 .metro .carousel .slide div.subslide {
   z-index: 2;
   position: absolute;
@@ -8588,6 +8590,14 @@ a {
 }
 .metro .fg-white {
   color: #ffffff !important;
+}
+
+.metro .fs-9 {
+  font-size:9pt !important;
+}
+
+.metro .pad-5 {
+  padding:5px !important;
 }
 .metro .fg-lime {
   color: #a4c400 !important;
